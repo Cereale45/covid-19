@@ -20,10 +20,23 @@ body{
     font-size: 50px;
 }
 
-#description, #pagine-tab{
-    width: max-content;
+#description, #italia, #mondo{
+    width: 100%;
     padding: 2%;
     margin: auto;
+}
+
+#italia{
+    background-image: url(http://www.salute.gov.it/portale/nuovocoronavirus/img/C_17_pagineAree_5351_0_immagine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white
+}
+
+#mondo{
+    background-color: aqua;
+    color: white;
 }
 
 .subtitle{
