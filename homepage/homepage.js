@@ -1,9 +1,10 @@
-function menuComparsa(id){
+const divDescrizione = document.getElementById("description");
+const divTitolo = document.getElementById("title-div");
+const divItalia = document.getElementById("italia");
 
-    var element = document.getElementById(id).style;
-    if(element.display == "none"){
-        element.display = "block";
-    }else{
-        element.display = "none";
-    }
-}
+window.addEventListener("scroll", function(){
+    var offset = pageYOffset;
+    divDescrizione.style.backgroundPositionY = offset * 0.4 + "px";
+
+    console.log(offset);
+})

@@ -1,3 +1,7 @@
+html, body{
+    max-width: 100%;
+}
+
 body{
     font-size: xx-large;
     font-family: Titillium Web,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
@@ -10,32 +14,49 @@ body{
 
 #title-div{
     background-color:rgb(0, 102, 218);
-    width: 100%;
-    height: 50px;
-    padding: 2%;
+    max-width: 100%;
+    padding: 1%;
     text-align: left;
     vertical-align: middle;
     color: white;
     font-weight: bolder;
-    font-size: 50px;
 }
 
-#description, #italia, #mondo{
-    width: 100%;
+#italia, #mondo, #vaccini, #varianti{
+    max-width: 100%;
     padding: 2%;
     margin: auto;
 }
 
-#italia{
-    background-image: url(http://www.salute.gov.it/portale/nuovocoronavirus/img/C_17_pagineAree_5351_0_immagine.jpg);
-    background-repeat: no-repeat;
+#description{
+    font-size: 35px;
+    max-width: 100%;
+    padding: 8%;
+    margin: auto;
+    background-image: url(home-wallpaper.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    color: white
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#italia{
+    background-color: rgb(0, 102, 218);
+    color: white;
 }
 
 #mondo{
-    background-color: aqua;
+    background-color: rgb(170, 170, 170);
+    color: white;
+}
+
+#vaccini{
+    background-color: rgb(0, 102, 218);
+    color: white;
+}
+
+#varianti{
+    background-color: rgb(170, 170, 170);
     color: white;
 }
 
@@ -43,28 +64,10 @@ body{
     font-weight: bold;
 }
 
-#pagine-tab{
-    width: 100%;
-    border-collapse: collapse;
-    font-size: larger;
-    border: 5px solid white;
+.white-a{
+    color: white;
 }
 
-#pagine-tab td{
-    padding: 2%;
-    background-color: lightgray;
-    border: 5px solid white;
-}
-
-#comparsa{
-    display: none;
-}
-
-a{
-    color: rgb(0, 102, 218);;
-}
-
-#comparsa-on-off{
-    font-weight: bold;
-    color: rgb(0, 102, 218);;
+.blue-a{
+    color: rgb(0, 102, 218);
 }
