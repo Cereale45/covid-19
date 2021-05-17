@@ -1,8 +1,8 @@
 body{
-	background-image: url("unnamed.jpg");
+	background-image: url("sfondo.jpg");
 	background-repeat: no-repeat;
-  	background-size: 100%;
-    font-size: xx-large;
+	background-size: cover;
+    font-size: x-large;
     color: white;
     font-family: Titillium Web,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 
@@ -17,14 +17,14 @@ td{
 	vertical-align: top;
 }
 li{
-	font-size: 40px;
+	font-size: 15px;
 	text-shadow: 2px 2px black;
 }
 h1{
-	font-size: 72px;
+	font-size: 28px;
 	text-shadow: 2px 2px black;
 }
 h2{
-	font-size: 60px;
+	font-size: 20px;
 	text-shadow: 2px 2px black;
 }
