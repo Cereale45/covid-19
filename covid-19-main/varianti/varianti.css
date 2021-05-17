@@ -1,0 +1,28 @@
+body{
+    font-size: xx-large;
+    font-family: Titillium Web,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tabella-varianti{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.titoli{
+    font-weight: 700;
+}
+thead{
+    background-color: rgb(0, 102, 218);
+    color:white;
+}
+tbody{
+    background-color: rgb(200, 200, 200);
+}
+#tabella-varianti td,th{
+    border: 2px solid black;
+}
