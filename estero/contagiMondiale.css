@@ -1,4 +1,30 @@
 body{
+	background-image: url("unnamed.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100%;
     font-size: xx-large;
+    color: white;
     font-family: Titillium Web,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+}
+td{
+	vertical-align: top;
+}
+li{
+	font-size: 40px;
+	text-shadow: 2px 2px black;
+}
+h1{
+	font-size: 72px;
+	text-shadow: 2px 2px black;
+}
+h2{
+	font-size: 60px;
+	text-shadow: 2px 2px black;
 }
