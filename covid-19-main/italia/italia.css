@@ -1,0 +1,17 @@
+body{
+    font-size: xx-large;
+    font-family: Titillium Web,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+p {
+	color: rgb(0, 102, 218);
+}
+
+li {
+	color: gray;
+}
